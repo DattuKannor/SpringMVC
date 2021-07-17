@@ -15,6 +15,7 @@ public class Pro1SpringBootBasicApplication {
 	public static void main(String[] args) {
 		ApplicationContext run = SpringApplication.run(Pro1SpringBootBasicApplication.class, args);
 		
+		System.out.println("Testing");
 		Student s=run.getBean("stu",Student.class);
 		s.preparation("prelim exam");
 	}
