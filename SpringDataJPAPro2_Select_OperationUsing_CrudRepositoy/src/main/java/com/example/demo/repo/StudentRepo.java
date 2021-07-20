@@ -6,5 +6,4 @@ import com.example.demo.entity.Student;
 
 public interface StudentRepo extends CrudRepository<Student, Integer> {
 
-
 }
